@@ -5,16 +5,22 @@
 declare module 'vue' {
   export interface GlobalComponents {
     CarbonCampsite: typeof import('~icons/carbon/campsite')['default']
+    CarbonClose: typeof import('~icons/carbon/close')['default']
     CarbonDicomOverlay: typeof import('~icons/carbon/dicom-overlay')['default']
     CarbonLanguage: typeof import('~icons/carbon/language')['default']
     CarbonLogoGithub: typeof import('~icons/carbon/logo-github')['default']
+    CarbonMenu: typeof import('~icons/carbon/menu')['default']
     CarbonMoon: typeof import('~icons/carbon/moon')['default']
-    CarbonPedestrian: typeof import('~icons/carbon/pedestrian')['default']
+    CarbonShoppingCart: typeof import('~icons/carbon/shopping-cart')['default']
     CarbonSun: typeof import('~icons/carbon/sun')['default']
-    CarbonWarning: typeof import('~icons/carbon/warning')['default']
     Counter: typeof import('./components/Counter.vue')['default']
+    Disclosure: typeof import('./components/Disclosure.vue')['default']
+    DisclosureButton: typeof import('./components/DisclosureButton.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
+    MobileMenuButton: typeof import('./components/MobileMenuButton.vue')['default']
+    Navbar: typeof import('./components/Navbar.vue')['default']
     README: typeof import('./components/README.md')['default']
+    Widgetpanel: typeof import('./components/widgetpanel.vue')['default']
   }
 }
 

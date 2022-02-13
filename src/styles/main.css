@@ -41,3 +41,19 @@ html.dark {
     hover:opacity-100 hover:text-teal-600;
   font-size: 0.9em;
 }
+
+.icon-btn-ring {
+  @apply bg-gray-100 dark:bg-gray-800 rounded-full focus:outline-none focus:ring-2
+    focus:ring-teal-600 focus:ring-offset-2
+    dark:focus:ring-offset-gray-800;
+}
+
+.btn-link {
+  @apply block px-3 py-2 rounded-md text-base font-medium cursor-pointer select-none
+    opacity-75 transition duration-200 ease-in-out
+    hover:opacity-100 hover:bg-gray-200 dark:hover:bg-gray-700;
+}
+
+.btn-ring-inset {
+  @apply focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-600;
+}
